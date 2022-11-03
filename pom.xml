@@ -8,6 +8,11 @@
     <artifactId>common-security</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>common</module>
+        <module>model</module>
+        <module>service-system</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
